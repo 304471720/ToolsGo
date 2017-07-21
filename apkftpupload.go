@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-var serverlist = [2]string{"124.251.46.171:21", "124.251.46.166:21"}
+var serverlist = [2]string{"xxx.xxx.xxx.xxx:21", "xxx.xxx.xxx.xxx:21"}
 var quit = make(chan int, len(serverlist))
 
 func main() {
